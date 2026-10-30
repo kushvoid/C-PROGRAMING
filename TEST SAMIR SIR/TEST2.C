@@ -1,10 +1,11 @@
-// PRINT 10 TO 1 USING FOR LOOP//
-
 #include <stdio.h>
+
 int main() {
-int i;
-for (i = 10; i >= 1; i--) {
-printf("%d\n", i);
-}
-return 0;
+    int num1, num2, sum;
+    printf("Enter two integers: ");
+    scanf("%d %d", &num1, &num2);
+    sum = num1 + num2;
+    printf("The sum of %d and %d is: %d\n", num1, num2, sum);
+
+    return 0;
 }
